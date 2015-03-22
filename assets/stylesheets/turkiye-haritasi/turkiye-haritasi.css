@@ -1,0 +1,13 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+  text-align: center;
+  padding: 20px 0;
+}
+path {
+  fill: #CCCCCC;
+}
+path:hover {
+  fill: #a1a1a1;
+  cursor: pointer;
+}
