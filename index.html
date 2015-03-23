@@ -13,6 +13,7 @@
   <!-- SVG Türkiye Haritası | MIT Lisans | dnomak.com -->
 
     <div class="svg-turkiye-haritasi">
+      <div class="iladi"></div>
       <svg version="1.1" id="turkiye-haritasi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1007.478px" height="527.323px" viewBox="0 0 1007.478 527.323" enable-background="new 0 0 1007.478 527.323" xml:space="preserve">
         <g id="turkiye">
           <g id="adana" data-plakakodu="01" data-alankodu="322" data-iladi="Adana">
@@ -283,7 +284,15 @@
   <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
   <script>
     $(document).ready(function () {
-
+      $("#turkiye-haritasi path").hover(function() {
+        $(".iladi").html("<div>" + $(this).parent().data("iladi") + "</div>");
+        $(this).mousemove(function(event) {
+          $(".iladi").css("top", (event.pageY + 15));
+          $(".iladi").css("left", event.pageX);
+        });
+      },function(){
+        $(".iladi").html("");
+      });
     });
   </script>
 

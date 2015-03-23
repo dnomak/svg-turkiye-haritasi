@@ -1,11 +1,24 @@
 /*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
 
 .svg-turkiye-haritasi {
+  position: relative;
   text-align: center;
   padding: 20px 0;
 }
+.iladi {
+  position: absolute;
+}
+.iladi div {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 path {
-  fill: #CCCCCC;
+  fill: #ccc;
 }
 path:hover {
   fill: #a1a1a1;
