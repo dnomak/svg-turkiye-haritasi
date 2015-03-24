@@ -1,9 +1,18 @@
 /*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
 
 .svg-turkiye-haritasi {
+  width: 100%;
   position: relative;
   text-align: center;
   padding: 20px 0;
+}
+.svg-turkiye-haritasi .harita {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.svg-turkiye-haritasi .harita svg {
+  width: 100%;
+  height: auto;
 }
 .iladi {
   position: absolute;
