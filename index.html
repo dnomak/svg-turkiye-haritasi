@@ -282,17 +282,18 @@
 
   <!-- jQuery 1.11.2 -->
   <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+
+  <!-- SVG Türkiye Haritası -->
+  <script src="assets/javascripts/turkiye-haritasi/turkiye-haritasi.js"></script>
+
+  <!-- jQuery Custom -->
   <script>
-    $(document).ready(function () {
-      $("#turkiye-haritasi path").hover(function() {
-        $(".iladi").html("<div>" + $(this).parent().data("iladi") + "</div>");
-        $(this).mousemove(function(event) {
-          $(".iladi").css("top", (event.pageY + 15));
-          $(".iladi").css("left", event.pageX);
-        });
-      },function(){
-        $(".iladi").html("");
-      });
+    $(document).on("ready", function () {
+
+      // SVG Türkiye Haritası
+      // (assets/javascripts/turkiye-haritasi/turkiye-haritasi.js)
+      turkiyeharitasi();
+
     });
   </script>
 
