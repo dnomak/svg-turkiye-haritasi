@@ -1,23 +1,20 @@
 /*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
 
-.svg-turkiye-haritasi {
-  width: 100%;
-  position: relative;
+.harita-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
   text-align: center;
   padding: 20px 0;
 }
-.svg-turkiye-haritasi .harita {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.svg-turkiye-haritasi .harita svg {
+.harita-wrap svg {
   width: 100%;
   height: auto;
 }
-.iladi {
+.il-tooltip {
   position: absolute;
+  z-index: 2;
 }
-.iladi div {
+.il-tooltip div {
   display: inline-block;
   background: #222;
   color: #fff;
@@ -26,10 +23,10 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-path {
+#turkiye-haritasi path {
   fill: #ccc;
 }
-path:hover {
+#turkiye-haritasi path:hover {
   fill: #a1a1a1;
   cursor: pointer;
 }
