@@ -1,8 +1,6 @@
-#SVG Türkiye Haritası
+# [SVG Türkiye Haritası](http://dnomak.com/turkiye-haritasi/)
 
-**[@dnomak](https://github.com/dnomak)** : Uzun zamandır hazırlamayı planladığım fakat üşengeçlikten bir türlü fırsat bulamadığım **SVG Türkiye Haritası** sonunda kullanıma hazır :)
-
-### [Github Pages](http://dnomak.github.io/turkiye-haritasi/)
+Bu SVG Türkiye Haritası'nda İstanbul Asya ve Avrupa ayrı Kıbrıs'ta var hemde Responsive :)
 
 ##Lisans
 - SVG Türkiye Haritası MIT Lisansı altında lisanslanmıştır.
