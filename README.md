@@ -1,7 +1,14 @@
 # [SVG Türkiye Haritası](http://dnomak.com/turkiye-haritasi/)
 
-Bu SVG Türkiye Haritası'nda İstanbul Asya ve Avrupa ayrı Kıbrıs'ta var hemde Responsive :)
+SVG formatında Türkiye öaritası. Özellikler:
+ - İstanbul Avrupa ve Anadolu yakası ayrı olarak işaretli.
+ - Kıbrıs'da var. 
+ - Responsive. :)
 
+# Demo
+ - [Demo](http://dnomak.com/turkiye-haritasi/)
+ - [Kullanım örneği](http://seramiksan.com.tr/bayiler)
+ 
 ##Lisans
 - SVG Türkiye Haritası MIT Lisansı altında lisanslanmıştır.
   - [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
