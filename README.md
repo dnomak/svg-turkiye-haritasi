@@ -1,6 +1,6 @@
 # [SVG Türkiye Haritası](http://dnomak.com/svg-turkiye-haritasi/)
 
-Bu SVG Türkiye Haritası'nda İstanbul Asya ve Avrupa ayrı Kıbrıs'ta var hemde Responsive :)
+Bu SVG Türkiye Haritası'nda İstanbul Asya ve Avrupa ayrı Kıbrıs da var hem de Responsive :)
 
 ## Önizleme
  - [Önizleme](http://dnomak.com/svg-turkiye-haritasi/)
