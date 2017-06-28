@@ -49,7 +49,7 @@ function svgturkiyeharitasi() {
           '#'
           + id
           + '-'
-          + parent.dataset.plakakodu
+          + parent.dataset['plakakodu']
         );
       }
     }
