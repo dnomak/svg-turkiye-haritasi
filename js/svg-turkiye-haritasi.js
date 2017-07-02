@@ -1,4 +1,4 @@
-/*! SVG Türkiye Haritası | jQuery | MIT Lisans | dnomak.com */
+/*! SVG Türkiye Haritası | JS | MIT Lisans | dnomak.com */
 
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
