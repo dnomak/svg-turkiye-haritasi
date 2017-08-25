@@ -1,4 +1,4 @@
-/*! SVG Türkiye Haritası | jQuery | MIT Lisans | dnomak.com */
+/*! SVG Türkiye Haritası | MIT Lisans | dnomak.com */
 
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
@@ -7,7 +7,7 @@ function svgturkiyeharitasi() {
   element.addEventListener(
     'mouseover',
     function (event) {
-      if (event.target.tagName === 'path') {
+      if (event.target.tagName === 'path' && event.target.parentNode.id !== 'guney-kibris') {
         info.innerHTML = [
           '<div>',
           event.target.parentNode.dataset['iladi'],
