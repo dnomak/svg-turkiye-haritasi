@@ -10,7 +10,7 @@ function svgturkiyeharitasi() {
       if (event.target.tagName === 'path' && event.target.parentNode.id !== 'guney-kibris') {
         info.innerHTML = [
           '<div>',
-          event.target.parentNode.dataset['iladi'],
+          event.target.parentNode.getAttribute('data-iladi'),
           '</div>'
         ].join('');
       }
@@ -49,7 +49,7 @@ function svgturkiyeharitasi() {
           '#'
           + id
           + '-'
-          + parent.dataset['plakakodu']
+          + parent.getAttribute('data-plakakodu')
         );
       }
     }
