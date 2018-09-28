@@ -10,7 +10,7 @@
   height: auto;
 }
 .il-isimleri {
-  position: absolute;
+  position: fixed;
   z-index: 2;
 }
 .il-isimleri div {
