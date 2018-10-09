@@ -1,0 +1,32 @@
+.dunya-haritasi {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dunya-haritasi svg {
+  width: 100%;
+  height: auto;
+}
+
+.isim {
+  position: absolute;
+  z-index: 2;
+}
+.isim div {
+  font-family: 'Open Sans';
+  display: inline-block;
+  background: #1094F6;
+  color: #fff;
+  padding: 8px 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+ path {
+  cursor: pointer;
+  fill: #000;
+}
+ path:hover {
+  fill: #1094F6;
+}
