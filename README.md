@@ -11,9 +11,9 @@ Bu SVG Türkiye Haritası'nda İstanbul Asya ve Avrupa ayrı Kıbrıs da var hem
   - [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
 
 
- ![Türkiye Haritası](https://raw.githubusercontent.com/dnomak/svg-turkiye-haritasi/master/screenshot/turkiye.jpg)
+ ![Türkiye Haritası](https://raw.githubusercontent.com/dnomak/svg-turkiye-haritasi/master/screenshot/turkiye.png)
 
- ![Dünya Haritası](https://raw.githubusercontent.com/dnomak/svg-turkiye-haritasi/master/screenshot/dunya.jpg)
+ ![Dünya Haritası](https://raw.githubusercontent.com/dnomak/svg-turkiye-haritasi/master/screenshot/dunya.png)
 
 
 #Güncelleme
