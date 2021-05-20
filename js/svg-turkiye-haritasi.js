@@ -32,12 +32,19 @@ function svgturkiyeharitasi() {
     }
   );
 
+  var oldPath = null;
   element.addEventListener(
     'click',
     function (event) {
       if (event.target.tagName === 'path') {
         const parent = event.target.parentNode;
         const id = parent.getAttribute('id');
+
+        if (oldPath != null) {
+          oldPath.setAttribute('style', '');
+        }
+        oldPath = event.target;
+        event.target.setAttribute('style', 'fill: green');
 
         if (
           id === 'guney-kibris'
