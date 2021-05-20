@@ -1,6 +1,4 @@
 /*! SVG Türkiye Haritası | MIT Lisans | dnomak.com */
-let selectedCityEnable = true;
-let selectedCityColor = 'green';
 
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
@@ -42,14 +40,11 @@ function svgturkiyeharitasi() {
         const parent = event.target.parentNode;
         const id = parent.getAttribute('id');
 
-        if (selectedCityEnable) {
-          if (oldPath != null) {
-            oldPath.setAttribute('style', '')
-          }
-
-          oldPath = event.target;
-          event.target.setAttribute('style', 'fill: ' + selectedCityColor)
+        if (oldPath != null) {
+          oldPath.setAttribute('style', '');
         }
+        oldPath = event.target;
+        event.target.setAttribute('style', 'fill: green');
 
         if (
           id === 'guney-kibris'
