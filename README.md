@@ -5,5 +5,4 @@ Bu SVG Türkiye Haritasında İstanbul Asya ve Avrupa ayrı Kıbrıs da var hem 
  - [Harita Kaynağı](https://commons.wikimedia.org/wiki/File:Turkey_provinces_blank_gray.svg)
 
 ## License
-- SVG Turkey Map is licensed under the MIT license.
-  - [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
+SVG Turkey Map is licensed under the [MIT](LICENSE) license.
