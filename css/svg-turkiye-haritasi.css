@@ -23,11 +23,11 @@
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-#svg-turkiye-haritasi path {
+#svg-turkiye-haritasi g {
   cursor: pointer;
   fill: #222;
 }
-#svg-turkiye-haritasi path:hover {
+#svg-turkiye-haritasi g:hover {
   fill: #1094F6;
 }
 #guney-kibris {
